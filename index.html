@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>상그리아</title>
+	<link href="https://fonts.googleapis.com/css?family=Gugi&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gugi|Poor+Story&display=swap" rel="stylesheet">
+	<style>
+
+		body{margin:0; font-family: 'Poor Story', cursive;}
+		section{height: 500px; position: relative;}
+		img{ width:180px; position: absolute; }
+		h1{margin-top: 0; left: 400px; top: 100px; font-weight: bold; color: white; font-family: 'Gugi', cursive;}
+		h2{left: 400px; top: 100px; text-align: center; font-family: 'Gugi', cursive;}
+		.white{background:white; height: 600px; position: relative;}
+		.back{background:white; height: 100px;}
+		.backw{background:white; height: 250px; width: 100%;}
+		
+		@keyframes ro{ from{left: 0px;}to{transform: rotate(360deg); left:150px;} }
+		@keyframes ro2{ from{right: 0px;}to{transform: rotate(360deg); right:260px;} }
+		@keyframes le{ from{left: 0px;} to{left: 430px;} }
+		@keyframes le2{ from{left: 800px; top: 0px;} to{left: 400px;top: -150px;} }
+		@keyframes ri{ from{right: 0px;} to{right: 400px;} }
+		@keyframes tt{
+			from{top:100px; opacity: 0} to{top:50px; opacity: 1} } 
+		#monitor{position: fixed; background: black; width:100px; height: 30px; right:0px; top:0px; color: white;}
+
+
+		
+		.text{ width:300px; font-size: 1em; line-height: 1.5; color:white; position: absolute; opacity: 0;}
+		.textbox{width: 500px; font-size: 1.2em; line-height: 2.0; color:white; background: black; position: absolute;opacity: 0.2; padding:20px; text-align: left;}
+		.how{font-size: 1.3em; background:black; color: white; position: absolute; opacity: 1; padding:20px; text-align: center;}
+		
+		#t1{ left:100px; top:0px; }
+		#t2{ left:100px; top:100px; }
+		#t3{ left:400px; top:100px; }
+		#t4{ left:400px; top:100px; }
+		#t42{ left: 600px; }
+		#t5{ left:400px; top:100px; }
+		#t6{ left:400px; top:100px; }
+		#t7{ left:100px; top:100px; }
+		#t8{ left: 700px; top: 500px; }
+
+
+		#aa{ background: url(2.jpg); background-size: cover; background-attachment: fixed; }
+		#bb{ background: url(3s.jpg); background-size: cover;
+				background-attachment: fixed;}
+		#cc{ background: url(sangif.gif); background-size: cover; background-attachment: fixed; height: 500px;}
+		#dd{ background: url(red.jpg); background-size: cover;
+				background-attachment: fixed;}
+		#ff{ background: url(s.jpg); background-attachment: fixed; background-size: cover;}
+		#gg{ background: white; background-size: cover;}
+		#hh{ background: url(ssgif.gif); background-size: cover;}
+	</style>
+</head>
+<body>
+	<div id="monitor"></div>	
+	<section class="white" id="aa">
+		<img src="straw.png" id="f1" style="top: 5%;">
+		<img src="apple1.png" id="f1" style="left: 20%; top: 220px;">
+		<img src="orange.png" id="f1" style="left: 60%; top: 20px;">
+		<img src="lemon.png" id="f1" style="left: 70%; top: 250px;">
+		<h1 style="font-size: 310px; text-align: center;">상그리아</h1>
+	</section>
+	<section id="aa">
+		<img src="sang.png" id="f2" style="margin-top: -100px; z-index: 999">
+		<img src="ffa.png" id="g2" style="margin-top:-100px; width: 1000px;">
+		<div class="textbox" id="t2"><h2 style="text-align: left;">상그리아란?</h2><p>다양한 과일들과 탄산수, 설탕 등을 넣고 레드와인을 부워 <br>하루 숙성시켜 먹는 스페인 전통음료</p></div>
+	</section>
+	<section id="bb">
+		<img src="sangria.png" id="f3" style="z-index: 9999; margin-top: 100px;">
+		<div class="textbox" id="t3" style="margin-top: 260px; left: 220px;">와인을 좀 더 맛있고 예쁘게 하지만 간단하게 먹고 싶을 때는 상그리아 만한 것이 없다. 레시피도 아주 간단하며<br>맛을 잘 살려준다. 단 주의할 점이 있다면 한번 만들어 <br>놓으면 최대한 그날, 늦어도 3일 이내에는 다 마시는 것을<br> 추천한다. 지나치게 오래 재워놓으면 과일 껍질의 향만<br> 우러나오는게 아니라 쓴맛까지 느껴져 맛이 없어진다.</div>
+	</section>
+
+	<section class="backw">
+		<h2 style="margin-top:200px; font-size: 180px; color: black;">홈파티의 </h2>
+	</section>
+	<section id="cc" style="height: 1000px;">
+		<h2 style="font-size: 180px; text-align:center; color: white; margin-top: 0px;">히든 아이템</h2>
+		<img src="fff.png" id="f4" style="margin-top: 200px; width: 300px;">
+		<div class="text" id="t4" style="margin-top: 300px;">
+		<p>비주얼 적으로도 예쁘고 부담없이 만들 수 있기 때문에 파티음료로 제격이다.</p></div>
+		<div class="text" id="t42" style="margin-top: 700px; left: 700px;">보통은 사과, 오렌지, 레몬을 사용하지만 기호와 제철에 따라 딸기, 키위, 수박 등 다양한 과일로 만들 수 있다.</h2>
+		</div>
+	</section>
+
+	<section id="dd" style="height: 500px;">
+		<img src="wow1.png" id="f5" style="z-index: 999; margin-top: 300px;">
+		<div class="textbox" id="t5" style="margin-left: 33%; margin-top: 130px; width: 220px;">와인은 도수가 좀 나가는(보통 13.5정도 되는)<br>레드와인이 잘 어울리는 편이다. 너무 낮은 도수의 와인일 경우에는 와인의 좋은 향이 죽고 과일향만 강하게 남게 되어 애매한 맛의 상그리아가 된다.</div>
+	</section>
+
+	<section class="backw">
+		<h2 style="margin-top:100px; font-size: 180px; color: black;">레시피도 간단</h2>
+	</section>
+
+	<section id="ff" style="height: 700px;">
+		<img src="f.png" id="f6" style="width: 500px; z-index: 999">
+		<div class="how" id="t6" style="margin-top: 100px;">1. 과일을 깨끗히 씻어 껍질이 있는 채로 얇게 썰어 담고 설탕을 넣는다</div>
+		<img src="wow.png" id="f7" style="margin-top: 200px; z-index: 999;">
+		<div class="how" id="t7" style="margin-top: 300px;">2. 준비한 레드와인을 부워 넣은 후 냉장고에 하루 숙성시킨다</div>
+		<img src="sp.png" id="f8" style="margin-top: 260px; z-index: 999;">
+		<div class="how" id="t8" style="margin-top: 480px;">3. 숙성시킨 후 꺼내 탄산수를 취향만큼 넣어 마신다</div>
+	</section>
+
+	<section id="hh" style="height: 1300px;">
+	<img src="fa.png" id="f9" style="margin-top: 200px; width: 1150px;">
+		<h2 style="font-size: 180px; text-align:center; color: white; margin: 0; padding-top:750px;">맛있게<br>즐겨주세요!</h2>
+		<div class="how" id="t9" style="margin-top: 200px; left: 500px;">파티 음료로 상그리아를 추천드립니다!</div>
+	</section>
+	
+	
+	<script type="text/javascript">
+	window.onscroll = function(){
+		var t = document.documentElement.scrollTop + document.body.scrollTop;
+		monitor.innerHTML = t;
+
+
+		if(t > 200){
+			f2.style.animation = "le 1s forwards";
+			t2.style.animation = "tt 1s forwards";
+			g2.style.animation = "le2 1.3s forwards";
+		}else{
+			f2.style.animation = "";
+			t2.style.animation = "";
+			g2.style.animation = "";
+		}
+
+		if(t > 750){
+			f3.style.animation = "ri 1.5s forwards";
+			t3.style.animation = "tt 3s forwards";
+		}else{
+			f3.style.animation = "";
+			t3.style.animation = "";
+		}
+
+		if(t > 2000){
+			f4.style.animation = "le 2s forwards";
+			t4.style.animation = "tt 1s forwards";
+			t42.style.animation = "tt 3s forwards";	
+		}else{
+			f4.style.animation = "";
+			t4.style.animation = "";
+			t42.style.animation = "";
+		}
+
+		if(t > 2800){
+			f5.style.animation = "ro 1s forwards";
+			f5.style.animation = "ri 1s forwards";
+			t5.style.animation = "tt 1s forwards";		
+		}else{
+			f5.style.animation = "";
+			t5.style.animation = "";
+		}
+
+		if(t > 3500){
+			f6.style.animation = "ri 2s forwards";
+			t6.style.animation = "tt 2s forwards";		
+		}else{
+			f6.style.animation = "";
+			t6.style.animation = "";
+		}
+
+		if(t > 3650){
+			f7.style.animation = "ro 2s forwards";
+			t7.style.animation = "tt 2s forwards";		
+		}else{
+			f7.style.animation = "";
+			t7.style.animation = "";
+		}
+
+	if(t > 3700){
+			f8.style.animation = "ro2 2s forwards";
+			t8.style.animation = "tt 3s forwards";		
+		}else{
+			f8.style.animation = "";
+			t8.style.animation = "";
+		}
+
+	if(t > 4300){
+			f9.style.animation = "le2 1s forwards";
+			t9.style.animation = "tt 1s forwards";		
+		}else{
+			f9.style.animation = "";
+			t9.style.animation = "";
+		}
+
+
+	}
+
+
+	</script>
+	<footer style="text-align: center">
+		copyright.Lee ju hyeon.all rights reserved.
+	</footer>
+</body>
+</html>
